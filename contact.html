@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/styles.css" />
+
+      <script
+         src="https://kit.fontawesome.com/a5f08b2870.js"
+         crossorigin="anonymous"
+      ></script>
+
+      <title>Fale conosco | FábioLab Store</title>
+   </head>
+   <body class="flex f-column bg-img">
+      <header class="bg-gray-medium">
+         <div class="container flex jc-space-between ai-center">
+            <div class="d-md-none">
+               <label for="checkbox">
+                  <i class="fa-solid fa-bars color-font fs-4"></i>
+               </label>
+               <input class="none" id="checkbox" type="checkbox" />
+               <div id="drawer-menu" class="">
+                  <div class="flex jc-space-between">
+                     <h2 class="color-white mb-4">Menu</h2>
+                     <label for="checkbox">
+                        <i
+                           class="fa-solid fa-xmark color-white fs-4 mb-2 me-2"
+                        ></i>
+                     </label>
+                  </div>
+                  <ul class="l-unstyled">
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="index.html">Início</a>
+                     </li>
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="products.html"
+                           >Produtos</a
+                        >
+                     </li>
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="about.html"
+                           >Quem somos</a
+                        >
+                     </li>
+                     <li class="mb-2">
+                        <a
+                           class="color-font fs-3 bb-active-togle"
+                           href="contact.html"
+                           >Fale conosco</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <label for="checkbox" id="drawer-overlay"></label>
+            </div>
+            <a href="index.html" title="Início"
+               ><img
+                  class="img-responsive mb-1 logo"
+                  src="assets/imgs/fabiolab-gold.png"
+                  alt="Logo FábioLab"
+            /></a>
+            <div class="flex f-column ai-end jc-space-around">
+               <div class="fs-4">
+                  <a class="color-font" href="cart.html">
+                     <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+               </div>
+               <div class="fs-5">
+                  <a
+                     class="me-1 color-font"
+                     title="facebook"
+                     href="https://pt-br.facebook.com/"
+                  >
+                     <i class="fa-brands fa-facebook-square"></i>
+                  </a>
+                  <a
+                     class="me-1 color-font"
+                     title="instagram"
+                     href="https://www.instagram.com/"
+                  >
+                     <i class="fa-brands fa-instagram-square"></i>
+                  </a>
+                  <a
+                     class="color-font"
+                     title="youtube"
+                     href="https://www.youtube.com/"
+                  >
+                     <i class="fa-brands fa-youtube-square"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="bg-gray-dark none d-md-flex">
+            <nav class="container flex fs-3 grid-1">
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu"
+                  href="index.html"
+                  title="Início"
+                  >Início</a
+               >
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu"
+                  href="products.html"
+                  title="Produtos"
+                  >Produtos</a
+               >
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu"
+                  href="about.html"
+                  title="Quem somos"
+                  >Quem somos</a
+               >
+               <a
+                  class="color-white flex jc-center py-1 menu bb-active"
+                  href="contact.html"
+                  title="Fale conosco"
+                  >Fale conosco</a
+               >
+            </nav>
+         </div>
+      </header>
+
+      <main class="grow container">
+         <h1 class="fs-5 color-font upper mb-1">Fale conosco</h1>
+         <p class="color-white fs-3 mb-4">
+            Nossa equipe estará disposta a te ajudar, aceitar seus elogios e até
+            suas críticas e sugestões
+         </p>
+         <form action="" class="container">
+            <div class="row">
+               <div class="fs-3 color-font col-2">
+                  <input
+                     class="input-style w-100 block mb-1"
+                     type="text"
+                     name="name"
+                     placeholder="Nome completo"
+                  />
+               </div>
+               <div class="fs-3 color-font col-2">
+                  <input
+                     class="input-style w-100 block"
+                     type="email"
+                     name="email"
+                     placeholder="Email"
+                  />
+               </div>
+               <div class="fs-3 color-font col-2">
+                  <input
+                     class="input-style w-100 block mb-1"
+                     type="tel"
+                     name="tel"
+                     placeholder="Telefone"
+                  />
+               </div>
+               <div class="fs-3 color-font col-2">
+                  <input
+                     class="input-style w-100 block mb-1"
+                     type="text"
+                     name="adress"
+                     placeholder="Endereço"
+                  />
+               </div>
+               <div class="fs-3 color-font col-1">
+                  <input
+                     class="input-style w-100 block mb-1"
+                     type="text"
+                     name="subject"
+                     placeholder="Assunto"
+                  />
+               </div>
+               <div class="fs-3 color-font col-1">
+                  <textarea
+                     class="input-style block w-100"
+                     name="massage"
+                     id=""
+                     cols="76"
+                     rows="5"
+                     placeholder="Mensagem"
+                  ></textarea>
+               </div>
+               <div class="flex jc-space-between ai-center mb-3 img-responsive">
+                  <div class="flex jc-center">
+                     <input class="submit" type="submit" />
+                  </div>
+                  <a
+                     title="whatsapp"
+                     target="_blank"
+                     href="https://wa.me/5522999999999"
+                  >
+                     <div class="whatsapp">
+                        <i class="fa-brands fa-whatsapp color-white fs-5"></i>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </form>
+      </main>
+
+      <footer class="bg-gray-medium">
+         <div class="container flex jc-space-between ai-center">
+            <div>
+               <p class="color-white">
+                  ©FábioLab. Todos os direitos reservados
+               </p>
+            </div>
+            <div>
+               <a href="index.html" title="Início"
+                  ><img
+                     class="img-responsive mb-1 logo"
+                     src="assets/imgs/fabiolab-gold.png"
+                     alt="Logo FábioLab"
+               /></a>
+            </div>
+            <div class="flex ai-center fs-5">
+               <a
+                  class="me-1 color-font"
+                  title="facebook"
+                  href="https://pt-br.facebook.com/"
+               >
+                  <i class="fa-brands fa-facebook-square"></i>
+               </a>
+               <a
+                  class="me-1 color-font"
+                  title="instagram"
+                  href="https://www.instagram.com/"
+               >
+                  <i class="fa-brands fa-instagram-square"></i>
+               </a>
+               <a
+                  class="color-font"
+                  title="youtube"
+                  href="https://www.youtube.com/"
+               >
+                  <i class="fa-brands fa-youtube-square"></i>
+               </a>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

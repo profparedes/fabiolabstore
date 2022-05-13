@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="../assets/styles.css" />
+
+      <script
+         src="https://kit.fontawesome.com/a5f08b2870.js"
+         crossorigin="anonymous"
+      ></script>
+
+      <title>FábioLab Store</title>
+   </head>
+   <body class="flex f-column bg-img">
+      <header class="bg-gray-medium">
+         <div class="container flex jc-space-between ai-center">
+            <div class="d-md-none">
+               <label for="checkbox">
+                  <i class="fa-solid fa-bars color-font fs-4"></i>
+               </label>
+               <input class="none" id="checkbox" type="checkbox" />
+               <div id="drawer-menu" class="">
+                  <div class="flex jc-space-between">
+                     <h2 class="color-white mb-4">Menu</h2>
+                     <label for="checkbox">
+                        <i
+                           class="fa-solid fa-xmark color-white fs-4 mb-2 me-2"
+                        ></i>
+                     </label>
+                  </div>
+                  <ul class="l-unstyled">
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="../index.html"
+                           >Início</a
+                        >
+                     </li>
+                     <li class="mb-2">
+                        <a
+                           class="color-font fs-3 bb-active-togle"
+                           href="../products.html"
+                           >Produtos</a
+                        >
+                     </li>
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="../about.html"
+                           >Quem somos</a
+                        >
+                     </li>
+                     <li class="mb-2">
+                        <a class="color-font fs-3" href="../contact.html"
+                           >Fale conosco</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <label for="checkbox" id="drawer-overlay"></label>
+            </div>
+            <a href="../index.html" title="Início"
+               ><img
+                  class="img-responsive mb-1 logo"
+                  src="../assets/imgs/fabiolab-gold.png"
+                  alt="Logo FábioLab"
+            /></a>
+            <div class="flex f-column ai-end jc-space-around">
+               <div class="fs-4">
+                  <a class="color-font" href="../cart.html">
+                     <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+               </div>
+               <div class="fs-5">
+                  <a
+                     class="me-1 color-font"
+                     title="facebook"
+                     href="https://pt-br.facebook.com/"
+                  >
+                     <i class="fa-brands fa-facebook-square"></i>
+                  </a>
+                  <a
+                     class="me-1 color-font"
+                     title="instagram"
+                     href="https://www.instagram.com/"
+                  >
+                     <i class="fa-brands fa-instagram-square"></i>
+                  </a>
+                  <a
+                     class="color-font"
+                     title="youtube"
+                     href="https://www.youtube.com/"
+                  >
+                     <i class="fa-brands fa-youtube-square"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="bg-gray-dark none d-md-flex">
+            <nav class="container flex fs-3 grid-1">
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu"
+                  href="../index.html"
+                  title="Início"
+                  >Início</a
+               >
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu bb-active"
+                  href="../products.html"
+                  title="Produtos"
+                  >Produtos</a
+               >
+               <a
+                  class="color-white flex jc-center me-1 py-1 menu"
+                  href="../about.html"
+                  title="Quem somos"
+                  >Quem somos</a
+               >
+               <a
+                  class="color-white flex jc-center py-1 menu"
+                  href="../contact.html"
+                  title="Fale conosco"
+                  >Fale conosco</a
+               >
+            </nav>
+         </div>
+      </header>
+
+      <main class="grow container mb-2">
+         <div class="row">
+            <div class="col-2">
+               <img
+                  id="zmorph-product"
+                  src="../assets/imgs/produtos/zmorf-fab.png"
+                  alt="zmorph fab"
+               />
+            </div>
+            <div class="col-2">
+               <h1 class="color-font mb-3">Zmorph fab</h1>
+               <p class="color-white mb-3">R$ 2.720,00</p>
+               <div class="flex jc-center">
+                  <button class="submit">Comprar</button>
+               </div>
+            </div>
+         </div>
+         <h2 class="color-white mb-2">Descrição do produto</h2>
+         <div class="row">
+            <div class="col-3 color-white">
+               <h2 class="mb-2">Construção</h2>
+               <p class="mb-2">
+                  Alumínio de 6 e 3mm (preciso e bastante rígido), aço inox de 2
+                  e 3mm, PET 3mm e ABS.<br /><br />
+                  Bicos intercambiáveis: 0.2mm, 0.3mm e 0.4mm.<br /><br />
+                  Cabeçotes intercambiáveis.<br /><br />
+                  Mesa de trabalho intercambiável.<br /><br />
+                  Espaço para acessórios de expansão.<br /><br />
+                  Mesa aquecida: vidro temperado de 5mm, heater de silicone de
+                  140 W, chegando a temperatura de até 120º C.
+               </p>
+            </div>
+            <div class="col-3 color-white">
+               <h2 class="mb-2">Dimensões</h2>
+               <p class="mb-2">
+                  Área de trabalho: 250 x 235 x 165 mm.<br /><br />
+                  Dimensões: 530 x 555 x 480 mm.<br /><br />
+                  Peso: 20 Kg com caixa (versão básica).<br /><br />
+                  Posicionamento e precisão 14 microns para o eixo X e Y, 0.625
+                  microns para o eixo Z.<br /><br />
+                  Resolução 50 – 400 microns.
+               </p>
+            </div>
+            <div class="col-3 color-white">
+               <h2 class="mb-2">Eletrônica</h2>
+               <p class="mb-2">
+                  Sunbeam 2.0 com processador ARM LPC1769, equipado com 5
+                  controladores de motor de passo 3 para os eixos X,Y e Z, mais
+                  2 para cabeçote de extrusão dupla.<br /><br />
+                  Driver interno com porta USB.<br /><br />
+                  Display LCD touchscreen colorido.<br /><br />
+                  Comunicação USB e LAN (acesso por WIFI depois de plugado no
+                  roteador WIFI).<br /><br />
+                  Impressão independente através do painel + cartão SD interno.
+               </p>
+            </div>
+         </div>
+      </main>
+
+      <footer class="bg-gray-medium">
+         <div class="container flex jc-space-between ai-center">
+            <div>
+               <p class="color-white">
+                  ©FábioLab. Todos os direitos reservados
+               </p>
+            </div>
+            <div>
+               <a href="../index.html" title="Início"
+                  ><img
+                     class="img-responsive mb-1 logo"
+                     src="../assets/imgs/fabiolab-gold.png"
+                     alt="Logo FábioLab"
+               /></a>
+            </div>
+            <div class="flex ai-center fs-5">
+               <a
+                  class="me-1 color-font"
+                  title="facebook"
+                  href="https://pt-br.facebook.com/"
+               >
+                  <i class="fa-brands fa-facebook-square"></i>
+               </a>
+               <a
+                  class="me-1 color-font"
+                  title="instagram"
+                  href="https://www.instagram.com/"
+               >
+                  <i class="fa-brands fa-instagram-square"></i>
+               </a>
+               <a
+                  class="color-font"
+                  title="youtube"
+                  href="https://www.youtube.com/"
+               >
+                  <i class="fa-brands fa-youtube-square"></i>
+               </a>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
