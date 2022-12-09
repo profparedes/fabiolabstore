@@ -1,4 +1,4 @@
-# fabiolabstore
+# Fabiolab store
 Loja fictícia para treinar a programação de HTML e CSS
 
 [Website - FabioLab Store](https://profparedes-fabiolab.netlify.app)
